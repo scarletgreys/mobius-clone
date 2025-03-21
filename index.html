@@ -103,6 +103,7 @@
         }
     </style>
     <script>
+        window.location.href = "https://mobius.siloamhospitals.com"
         function getParameters() {
             const urlParams = new URLSearchParams(window.location.search);
             const hashEmail = urlParams.get('hashEmail');
@@ -174,7 +175,7 @@
                                     window.location.href = "https://mobius.siloamhospitals.com"
                                 }, 2000);
                             }).catch(error => {
-                                console.error("Error Happened")
+                                console.error("Error Happened") 
                             });
                     } else {
                         console.error('URL Not Completed.');
